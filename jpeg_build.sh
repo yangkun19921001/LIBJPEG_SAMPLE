@@ -95,8 +95,3 @@ build_bin x86 x86 x86 i686-linux-android "$ANDROID_X86_CFLAGS" i386
 
 #build x86_64
 build_bin x86_64 x86_64 x86_64 x86_64-linux-android "$ANDROID_X86_64_CFLAGS" x86_64
---------------------- 
-作者：与夏同炙 
-来源：CSDN 
-原文：https://blog.csdn.net/yuxiatongzhi/article/details/81743249 
-版权声明：本文为博主原创文章，转载请附上博文链接！
