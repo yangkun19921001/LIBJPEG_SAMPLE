@@ -1,0 +1,1 @@
+# LIBJPEG_SAMPLE
