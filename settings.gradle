@@ -1,0 +1,1 @@
+include ':app', ':libjpeg_module', ':jpeg_app'
