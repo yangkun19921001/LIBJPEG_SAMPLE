@@ -372,12 +372,14 @@ libjpeg-turbo 是一个 JPEG 图像编解码器，它使用 SIMD 指令（MMX，
 
 ### [libjpeg 编译的源码和动态/静态库 在 dist 目录 提取码：b0cs](https://pan.baidu.com/s/1WshwS4GjYl3bbzXD4RX_pg )
 
-## 计划
+## 计划(也有可能由于工作任务，滞后)
+
 
 **图片优化计划出三篇文章** 
 1. libjpeg 编译及使用 
 2. 长图巨图优化 
 3. bitmap 内存管理 三级缓存
+
 
 
 
