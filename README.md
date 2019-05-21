@@ -1,4 +1,39 @@
 ## [或者更多信息请移步我的博客](https://juejin.im/post/5ce15d0ce51d45106e5e6dac)
+## 使用方式
+
+1. 在 project/build.gradle 上添加以下代码
+
+   ```java
+   allprojects {
+   		repositories {
+   			...
+   			maven { url 'https://jitpack.io' }
+   		}
+   	}
+   ```
+
+   
+
+2. 在 app/build.gradle 添加依赖
+
+   ```java
+   dependencies {
+           implementation 'com.github.yangkun19921001:LIBJPEG_SAMPLE:v1.0.1'
+   }
+   ```
+
+   
+
+3. 压缩使用
+
+   ```java
+   //bitmap        : 需要压缩的 bitmap
+   //q             : 压缩质量 建议 30 - 50
+   //outputFilePath: 压缩之后存储的图片地址
+   JpegUtils.native_Compress(Bitmap bitmap,int q,String outputFilePath);
+   ```
+
+   
 
 ## JEPG 是什么?
 
